@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import "./catagory.css";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -44,6 +44,12 @@ const Category = () => {
           <h3 className="text-3xl font-thin uppercase text-center -mt-16 text-white">salads</h3>
           </SwiperSlide>
         </Swiper>
+        <div className="my-8 p-20 description bg-fixed">
+          <div className="bg-white text-center p-16">
+            <h2 className="text-4xl uppercase mb-3">Bistro Boss</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, sapiente? Eum, dicta. Temporibus saepe repellendus velit neque molestiae distinctio illum cum incidunt vero? Maxime facilis, odit fuga numquam doloribus totam quis iusto. Laudantium aspernatur voluptatum excepturi, aliquam tempore, eos eum reprehenderit delectus ea maxime facere voluptas voluptates expedita. Consequatur, nobis.</p>
+          </div>
+        </div>
       </section>
   );
 };

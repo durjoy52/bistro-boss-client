@@ -13,7 +13,7 @@ const Navbar = () => {
     <li><a>Item 3</a></li></>
     return (
         <>
-            <div className="navbar fixed z-10 text-white bg-black bg-opacity-30 max-w-screen-xl mx-auto">
+            <div className="navbar fixed z-10 text-white bg-black bg-opacity-30 max-w-screen-xl mx-auto px-7">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -23,7 +23,10 @@ const Navbar = () => {
        {navOptions}
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">Bistro Boss</a>
+    <div className="font-serif">
+    <p className="uppercase text-xl">Bistro Boss</p>
+    <span className="uppercase tracking-widest">restaurant</span>
+    </div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
